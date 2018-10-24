@@ -1,6 +1,7 @@
 ## Typescript Koa 工程初始化
 
-** tsp-cli 脚手架模板之一，初始化了 koa 以及 typescript 配置 **
+tsp-cli 脚手架模板之一，初始化了 koa 以及 typescript 配置
+
 
 ## 使用
 
