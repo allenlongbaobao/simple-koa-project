@@ -1,0 +1,33 @@
+{
+  "name": "typescript-koa",
+  "version": "1.0.0",
+  "description": "koa 工程",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec ts-node index.ts",
+    "build": "make build",
+    "start": "npm run build && NODE_ENV=production node dist/index.js"
+  },
+  "keywords": [
+    "koa",
+    "typescript"
+  ],
+  "author": "allen",
+  "license": "ISC",
+  "dependencies": {
+    "@types/koa": "^2.0.46",
+    "@types/koa-router": "^7.0.32",
+    "@types/nodemailer": "^4.6.5",
+    "koa": "^2.5.3",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4",
+    "ts-node": "^7.0.1",
+    "tslib": "^1.9.3",
+    "tslint": "^5.11.0",
+    "tslint-sonarts": "^1.7.0",
+    "typescript": "^3.1.3"
+  }
+}
